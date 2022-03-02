@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/axo_aliens/static/css/main.530c81ac.css",
+    "main.js": "/axo_aliens/static/js/main.9865db38.js",
+    "static/media/banner.png": "/axo_aliens/static/media/banner.3467ac9bc50024c290be.png",
+    "static/media/banner_dark.png": "/axo_aliens/static/media/banner_dark.221fb4245b69a3d4edf4.png",
+    "static/media/3.png": "/axo_aliens/static/media/3.a86da17a29509073ba83.png",
+    "static/media/1.png": "/axo_aliens/static/media/1.d75a53c2f97b4ec24be8.png",
+    "static/media/2.png": "/axo_aliens/static/media/2.fe6cf99f9709df7e395c.png",
+    "static/media/head1.png": "/axo_aliens/static/media/head1.942ded8c367710ae2358.png",
+    "static/media/outfit2.png": "/axo_aliens/static/media/outfit2.f142680846735c01dd48.png",
+    "static/media/outfit1.png": "/axo_aliens/static/media/outfit1.ca1d9a7d0ee7d12855b6.png",
+    "static/media/hat1.png": "/axo_aliens/static/media/hat1.fee5c8b4208d950e7369.png",
+    "static/media/poppins-all-400-normal.woff": "/axo_aliens/static/media/poppins-all-400-normal.6fbfdac99c274b77fe96.woff",
+    "static/media/poppins-all-800-normal.woff": "/axo_aliens/static/media/poppins-all-800-normal.392ee1b76a9748808aae.woff",
+    "static/media/eyes1.png": "/axo_aliens/static/media/eyes1.382c18c3ad339c38e624.png",
+    "static/media/bungee-all-400-normal.woff": "/axo_aliens/static/media/bungee-all-400-normal.61ca83d074e495e65ec1.woff",
+    "static/media/poppins-devanagari-400-normal.woff2": "/axo_aliens/static/media/poppins-devanagari-400-normal.64d5f06ee726edd58ca3.woff2",
+    "static/media/poppins-devanagari-800-normal.woff2": "/axo_aliens/static/media/poppins-devanagari-800-normal.5e8f879de58d6f900998.woff2",
+    "static/media/mouth1.png": "/axo_aliens/static/media/mouth1.3f9aa1da55f4cbe85af4.png",
+    "static/media/bungee-latin-400-normal.woff2": "/axo_aliens/static/media/bungee-latin-400-normal.daddcac6fe1a2454c842.woff2",
+    "static/media/bungee-latin-ext-400-normal.woff2": "/axo_aliens/static/media/bungee-latin-ext-400-normal.7ec24d3fb778d0a7f8ac.woff2",
+    "static/media/poppins-latin-400-normal.woff2": "/axo_aliens/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-latin-800-normal.woff2": "/axo_aliens/static/media/poppins-latin-800-normal.ca6a92cea2062ebec667.woff2",
+    "static/media/bungee-vietnamese-400-normal.woff2": "/axo_aliens/static/media/bungee-vietnamese-400-normal.35a2efc8b99be71aebc4.woff2",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/axo_aliens/static/media/poppins-latin-ext-400-normal.4f38b4331448d2313adc.woff2",
+    "static/media/poppins-latin-ext-800-normal.woff2": "/axo_aliens/static/media/poppins-latin-ext-800-normal.321c80e54f0ca44d12ad.woff2",
+    "index.html": "/axo_aliens/index.html",
+    "main.530c81ac.css.map": "/axo_aliens/static/css/main.530c81ac.css.map",
+    "main.9865db38.js.map": "/axo_aliens/static/js/main.9865db38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.530c81ac.css",
+    "static/js/main.9865db38.js"
+  ]
+}
