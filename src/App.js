@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from './components/Nav'
+import About from './components/About'
+import Rarity from './components/Rarity'
+import Roadmap from './components/Roadmap'
+import FAQ from './components/FAQ'
+import Team from './components/Team'
+import Footer from './components/Footer'
+
+import { Box } from '@chakra-ui/react'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box overflowX='hidden'>
+      <Nav />
+      <About />
+      <Rarity />
+      <Roadmap />
+      <FAQ />
+      <Team />
+      <Footer />
+    </Box>
   );
 }
 
