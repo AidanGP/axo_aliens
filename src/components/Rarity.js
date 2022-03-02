@@ -18,7 +18,7 @@ function TraitCategory({ number, name, color, alt_color, src }) {
                 bg={color}
                 rounded="12px"
                 shadow='lg'
-                px={10}
+                px={12}
                 _hover={{
                     boxShadow: 'inner'
                 }}
@@ -35,7 +35,7 @@ function TraitCategory({ number, name, color, alt_color, src }) {
                     </Box>
 
                     <Spacer />
-                    <Image w='120px' pl={2} rounded='12px' justifySelf='flex-start' src={src} />
+                    <Image w='140px' pl={2} rounded='12px' justifySelf='flex-start' src={src} />
                 </HStack>
             </Box>
         </>
