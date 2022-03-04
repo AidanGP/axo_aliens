@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/axo_aliens/static/css/main.0c2e2490.css",
-    "main.js": "/axo_aliens/static/js/main.02189444.js",
+    "main.js": "/axo_aliens/static/js/main.aa836e1f.js",
     "static/media/banner.png": "/axo_aliens/static/media/banner.3467ac9bc50024c290be.png",
     "static/media/banner_dark.png": "/axo_aliens/static/media/banner_dark.221fb4245b69a3d4edf4.png",
     "static/media/3.png": "/axo_aliens/static/media/3.a86da17a29509073ba83.png",
@@ -30,12 +30,15 @@
     "static/media/bungee-vietnamese-400-normal.woff2": "/axo_aliens/static/media/bungee-vietnamese-400-normal.35a2efc8b99be71aebc4.woff2",
     "static/media/poppins-latin-ext-400-normal.woff2": "/axo_aliens/static/media/poppins-latin-ext-400-normal.4f38b4331448d2313adc.woff2",
     "static/media/poppins-latin-ext-800-normal.woff2": "/axo_aliens/static/media/poppins-latin-ext-800-normal.321c80e54f0ca44d12ad.woff2",
+    "static/media/stars.svg": "/axo_aliens/static/media/stars.df6b9a59c3a4eb9a05f2f3d2c9e5dcf5.svg",
+    "static/media/cloud-right.svg": "/axo_aliens/static/media/cloud-right.47c47ad163501f76293636ea77b80709.svg",
+    "static/media/cloud-left.svg": "/axo_aliens/static/media/cloud-left.ee38d86899756f4a06ccf5688e3a54e1.svg",
     "index.html": "/axo_aliens/index.html",
     "main.0c2e2490.css.map": "/axo_aliens/static/css/main.0c2e2490.css.map",
-    "main.02189444.js.map": "/axo_aliens/static/js/main.02189444.js.map"
+    "main.aa836e1f.js.map": "/axo_aliens/static/js/main.aa836e1f.js.map"
   },
   "entrypoints": [
     "static/css/main.0c2e2490.css",
-    "static/js/main.02189444.js"
+    "static/js/main.aa836e1f.js"
   ]
 }
