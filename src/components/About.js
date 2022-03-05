@@ -7,7 +7,7 @@ function About() {
     const bg = useColorModeValue('light.green', 'dark.green')
     return (
         <>
-            <Box backgroundColor={bg} px={[4, 4, 32, 64]} pt={16} align="center">
+            <Box backgroundColor={bg} px={[4, 4, 32, 64]} align="center">
                 <Box>
                     <Heading pb={12} size="4xl">About</Heading>
                 </Box>

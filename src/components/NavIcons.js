@@ -1,7 +1,8 @@
 import React from 'react'
 import { Stack } from '@chakra-ui/react';
 import { IconButton, useColorModeValue } from '@chakra-ui/react'
-import { FaDiscord, FaTwitter, FaInstagram, FaGem } from 'react-icons/fa';
+import { FaDiscord, FaTwitter, FaGem } from 'react-icons/fa';
+import { AiFillInstagram } from 'react-icons/ai'
 import { GiSailboat } from 'react-icons/gi'
 
 
@@ -24,7 +25,7 @@ function NavIcons({ children, dirn, ...rest }) {
     return (
         <Stack direction={dirn ? dirn : ["column", "column", "row", "row"]} align="center" spacing={3}>
             <IconLink name="Twitter" icon={<FaTwitter />} {...rest} />
-            <IconLink name="Instagram" icon={<FaInstagram />} {...rest} />
+            <IconLink name="Instagram" icon={<AiFillInstagram />} {...rest} />
             <IconLink name="Discord" icon={<FaDiscord />} {...rest} />
             <IconLink name="OpenSea" icon={<GiSailboat />} disabled {...rest} />
             <IconLink name="Rarity" icon={<FaGem />} disabled {...rest} />

@@ -6,6 +6,9 @@ import FAQ from './components/FAQ'
 import Team from './components/Team'
 import Footer from './components/Footer'
 
+
+
+
 import { Box } from '@chakra-ui/react'
 
 function App() {

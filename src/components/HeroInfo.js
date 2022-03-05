@@ -1,10 +1,16 @@
 import React from 'react'
-import { Box, Stack, Heading, Button, useColorModeValue, Image } from '@chakra-ui/react'
+import { Box, Stack, Button, useColorModeValue, Image, HStack } from '@chakra-ui/react'
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
 
 
 import banner from '../images/banner.png'
 import banner_dark from '../images/banner_dark.png'
+import banner_text from '../images/banner_text.png'
+import cloud_left from '../images/cloud-left.svg'
+import cloud_right from '../images/cloud-right.svg'
+import stars from '../images/stars.svg'
+
+import blurb from '../images/headings/blurb.png'
 
 function HeroInfo() {
     const accent = useColorModeValue('light.accent', 'dark.accent');
@@ -16,10 +22,26 @@ function HeroInfo() {
         'linear(to-r, light.purple, light.pink)');
 
     return (
-        <Box w='100vw' pt={48} bgGradient={bgGrad}>
-            <Stack direction='column' align='center' spacing={8} mb={4}>
-                <Heading align='center'>AXO</Heading><Heading>Aliens</Heading>
-                <Heading size="xl">Lorem ipsum dolor</Heading>
+        <Box w='100vw' bgGradient={bgGrad}>
+            {/* <Image src={cloud_left} /> */}
+            <Stack direction='column' align='center' spacing={0}>
+                {/* <Heading fontFamily='Alba' align='center' fontSize='120px' letterSpacing={3} color={accent}>AXOALIENS</Heading> */}
+                <HStack>
+                    <Box w='20%' display={{ base: 'none', lg: 'block' }}>
+                        <Image src={cloud_left} draggable={false} />
+                    </Box>
+
+                    <Box w={{ base: '100%', lg: '60%' }} px={'15%'} align='center' pt={40} bgImage={stars} bgRepeat='no-repeat' bgPos='50% 0%'>
+                        <Image src={banner_text} objectPosition='center' w='100%' draggable={false} />
+                    </Box>
+                    <Box w='20%' display={{ base: 'none', lg: 'block' }} >
+                        <Image src={cloud_right} draggable={false} />
+                    </Box>
+
+
+                </HStack>
+                <Image w={'300px'} pb={4} src={blurb} />
+                {/* <Heading size="xl" fontFamily='Mat' color={accent}>The Delivery Service for the Dead</Heading> */}
                 <Button
                     leftIcon={<ChevronLeftIcon />}
                     rightIcon={<ChevronRightIcon />}
@@ -34,11 +56,13 @@ function HeroInfo() {
                     borderColor={buttonbg}
                     px={8}
                     py={6}
+                    fontFamily='Mat'
                     shadow='inner'
                     _focus={{ outline: 0 }}
                     _hover={{
                         bgGradient: buttonbg,
-                        transform: 'rotate(-2deg)',
+                        transform: 'rotate(-12deg)',
+                        transitionDuration: '1s',
                         letterSpacing: 0.1
                     }}
                 >
@@ -46,13 +70,7 @@ function HeroInfo() {
                 </Button>
 
             </Stack>
-            <Image src={bgBanner} objectPosition='center' objectFit='contain' />
-            {/* <Image
-                // objectFit='cover'
-                objectFit='cover'
-                backgroundPosition='center'
-                // objectPosition='50% 100%'
-                src={bgBanner} /> */}
+            <Image src={bgBanner} objectPosition='center' objectFit='contain' draggable={false} />
 
         </Box >
     )

@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { ChakraProvider, ColorModeScript, extendTheme, useColorModeValue } from '@chakra-ui/react'
+import { ChakraProvider, ColorModeScript, extendTheme } from '@chakra-ui/react'
 import '@fontsource/poppins/800.css'
 import '@fontsource/poppins/400.css'
 
 // import "@fontsource/itim"
 // import "@fontsource/gochi-hand"
 import "@fontsource/bungee"
-
+import './fonts/alba/ALBAS___.TTF'
+import './fonts/dunkin/Dunkin.otf'
+import './fonts/mat_saleh//Mat Saleh.ttf'
+import './index.css'
 
 const config = {
   initialColorMode: 'light',
@@ -22,19 +25,19 @@ const theme = extendTheme({
   colors: {
     light: {
       pink: '#FFD2EA',
-      green: '#B3FFC7',
+      green: '#A1FF9C',
       blue: '#BBEFFF',
       purple: '#C5C5FF',
-      orange: '#FFCC99',
+      orange: '#FFD49C',
       yellow: '#FFE98A',
-      accent: '#11249c'
+      accent: '#244f9d'
     },
     dark: {
       pink: '#FFA4D4',
-      green: '#79E8B3',
-      blue: '#80B1FF',
+      green: '#1B9115',
+      blue: '#19559f',
       purple: '#A4A4F4',
-      orange: '#FFAB57',
+      orange: '#D07908',
       yellow: '#FFDE4F',
       accent: '#80B1FF'
     }
@@ -53,9 +56,14 @@ const theme = extendTheme({
         color: props.colorMode === 'light' ? '#2C2C2C' : 'white'
       })
     },
+    Text: {
+      baseStyle: {
+        fontFamily: 'Mat',
+        fontSize: 'xl',
+      },
+    },
     Button: {
       defaultProps: {
-
       },
       baseStyle: {
         borderRadius: '80px',

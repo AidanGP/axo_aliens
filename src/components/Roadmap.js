@@ -1,20 +1,15 @@
 import React from 'react'
-import { Box, Heading, Flex, useColorModeValue } from '@chakra-ui/react';
+import { Box, Image, useColorModeValue } from '@chakra-ui/react';
 import ImageDivider from './ImageDivider';
+
+import head from '../images/headings/roadmap.png'
 
 function Roadmap() {
     const bg = useColorModeValue('light.pink', 'dark.pink')
     return (
         <>
-            <Box
-                backgroundColor={bg}
-                h="60vh"
-            >
-                <Flex justifyContent='center'>
-                    <Heading pb={16}>
-                        Roadmap
-                    </Heading>
-                </Flex>
+            <Box backgroundColor={bg} align='center'>
+                <Image w={'360px'} src={head} />
             </Box>
             <ImageDivider
                 fill_1={useColorModeValue('#FFD2EA', '#FFA4D4')}

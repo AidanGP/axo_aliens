@@ -7,6 +7,9 @@ import b from '../images/team/2.png'
 import c from '../images/team/3.png'
 import { FaTwitter } from 'react-icons/fa';
 
+
+import head from '../images/headings/team.png'
+
 const TeamMember = ({ name, role, color, alt_color, src }) => {
     return (
         <Box
@@ -18,25 +21,22 @@ const TeamMember = ({ name, role, color, alt_color, src }) => {
             }}
         >
             <HStack spacing={8}>
-
-                <Image w='120px' pl={2} rounded='12px' justifySelf='flex-start' src={src} />
-
+                <Image w='120px' pl={2} rounded='12px' justifySelf='flex-start' src={src} draggable={false} />
                 <Box align="left">
                     <HStack>
-
-                        <Heading size='md' color={alt_color}>
+                        <Heading size='lg' fontFamily={'Mat'} fontWeight='hairline' color={alt_color}>
                             {name}
                         </Heading>
                         <IconButton
                             icon={<FaTwitter />}
                             color={alt_color}
                             bgColor="transparent"
-                            size='sm'
+                            size='md'
                             _hover={{ backgroundColor: "rgb(0, 0, 0, 0.1)" }}
                             _focus={{ outline: 0 }}
                         />
                     </HStack>
-                    <Text size="md">
+                    <Text size="md" color={alt_color}>
                         {role}
                     </Text>
                 </Box>
@@ -53,14 +53,12 @@ function Team() {
     return (
         <>
             <Box backgroundColor={bg} align="center">
-                <Box>
-                    <Heading>Team</Heading>
-                </Box>
-                <Box w={['95%', '95%', '95%', '98%', '85%', '70%']} py={24}>
+                <Image w={64} src={head} draggable='false' />
+                <Box w={['95%', '95%', '95%', '98%', '85%', '70%']} py={8}>
                     <SimpleGrid columns={{ base: '1', lg: '3' }} spacingY={4} spacingX={{ base: 0, lg: 5, xl: 10 }} >
                         <TeamMember color="light.orange" alt_color="dark.orange" name="Jason" role="Project Manager" src={a} />
-                        <TeamMember color="dark.green" alt_color="light.green" name="Brenden" role="Developer" src={b} />
-                        <TeamMember color="dark.blue" alt_color="light.blue" name="Randall" role="Community Manager" src={c} />
+                        <TeamMember color="light.green" alt_color="dark.green" name="Brenden" role="Developer" src={b} />
+                        <TeamMember color="light.blue" alt_color="dark.blue" name="Randall" role="Community Manager" src={c} />
                     </SimpleGrid>
                 </Box>
             </Box>

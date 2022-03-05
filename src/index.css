@@ -1,0 +1,25 @@
+
+
+
+
+@font-face {
+    font-family: 'Alba';
+    src: local('Alba'), url('./fonts/alba/ALBAS___.TTF');
+}
+
+@font-face {
+    font-family: 'Alba2';
+    src: local('Alba2'), url('./fonts/alba/ALBAM___.TTF');
+}
+
+@font-face {
+    font-family: 'Mat';
+    src: local('Mat'), url('./fonts/mat_saleh/Mat\ Saleh.ttf');
+}
+
+
+
+@font-face {
+    font-family: 'Dunkin';
+    src: local('Dunkin'), url('./fonts/dunkin//Dunkin.otf')
+}

@@ -6,10 +6,11 @@ import {
     AccordionPanel,
     AccordionIcon,
     Box,
-    Heading,
+    Image,
     useColorModeValue
 } from '@chakra-ui/react'
 import ImageDivider from './ImageDivider';
+import head from '../images/headings/faq.png'
 
 function FAQItem({ question, answer }) {
     return (
@@ -37,9 +38,7 @@ function FAQ() {
         <>
             <Box backgroundColor={bg}>
                 <Box mx={[4, 4, 32, 64]} align="center">
-                    <Box>
-                        <Heading pb={24}>FAQ</Heading>
-                    </Box>
+                    <Image w={64} src={head} draggable='false' />
                     <Accordion w="100%" allowToggle>
                         <FAQItem question="How much is whitelist mint?" answer="Presale mint price is 20 matic" />
                         <FAQItem question="How much is public mint?" answer="Public Sale mint price is 30 matic" />
