@@ -46,8 +46,6 @@ const theme = extendTheme({
   },
   components: {
     Heading: {
-      // color: 'red',
-      // textShadow: 'rgb(86, 92, 155) - 3px 3px 0px'
       defaultProps: {
         size: '4xl',
 
